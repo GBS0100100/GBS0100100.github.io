@@ -1,0 +1,60 @@
+section {
+  width: 100%;
+}
+
+section#presentation {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+}
+
+section#presentation img#photo-presentation {
+  width: 120px;
+  height: 120px;
+
+  border: 2px solid white;
+  border-radius: 50%;
+
+  padding: 4px;
+  margin-bottom: 16px;
+}
+
+section#presentation h1 {
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+section#presentation h2 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 16px;
+}
+
+section#presentation div#social-media {
+  position: relative;
+  display: flex;
+  gap: 8px;
+}
+
+section#presentation div#social-media a {
+  width: 32px;
+  height: 32px;
+}
+
+section#presentation div#social-media a img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  transition: all 0.2s ease-in;
+}
+
+section#presentation div#social-media a img:hover {
+  opacity: 1;
+}
