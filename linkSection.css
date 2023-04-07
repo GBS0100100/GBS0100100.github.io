@@ -1,0 +1,60 @@
+section#links div.link-container {
+  background-color: white;
+
+  margin-top: 16px;
+
+  padding: 16px;
+
+  border-radius: 8px;
+
+  box-shadow: 0px 4px 8px 1px rgba(6, 13, 68, 0.1);
+}
+
+section#links div.link-container:first-of-type {
+  margin-top: 32px;
+}
+
+section#links div.link-container h2.link-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  word-wrap: break-word;
+}
+
+section#links div.link-container p.link-description {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  color: darkgrey;
+  word-wrap: break-word;
+}
+
+section#links div.link-container footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#links div.link-container footer p.link-type {
+  background-color: #e4f1ff;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 16px;
+}
+
+section#links div.link-container footer a.link-url {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+
+  color: black;
+}
+
+section#links div.link-container footer a.link-url img {
+  width: 24px;
+}

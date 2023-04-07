@@ -1,0 +1,17 @@
+section {
+  width: 100%;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/img/wallpapersden.com_giyuu-tomioka-demon-slayer_1366x768.jpg");
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  filter: brightness(0.4);
+  z-index: -1;
+}
